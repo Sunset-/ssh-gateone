@@ -1,0 +1,12 @@
+1.将安装包放置于home下，解压 tar -zxvf sunset.20160413.tar.gz
+
+2.进入sunset/gateone
+
+3.安装gateone
+yum localinstall gateone-1.1-1.noarch.rpm
+yum tornado-2.4-1.noarch.rpm
+
+4.执行/home/sunset/proxy.start.sh
+
+5.将第四步中的执行脚本加入自启动脚本中
+
